@@ -2,7 +2,7 @@
 
 1. Install cathook via the appimage: https://nullworks.gitlab.io/cathook/cathook-gui/cathook-gui.tar.gz
 2. (For this you need TF2 installed)
-   - "git clone --recursive https://github.com/nullworks/catbot-database;cd catbot-database;sudo cp -R nav\ meshes/* ~/.steam/steam/steamapps/common/Team\ Fortress\ 2/tf/maps;sudo chmod" 755 -R ~/.steam/steam/steamapps/common/Team\ Fortress\ 2/tf/maps;cd ..;sudo rm -r catbot-database
+   - "git clone --recursive https://github.com/nullworks/catbot-database;cd catbot-database;sudo cp -R nav\ meshes/* ~/.steam/steam/steamapps/common/Team\ Fortress\ 2/tf/maps;sudo chmod 755 -R ~/.steam/steam/steamapps/common/Team\ Fortress\ 2/tf/maps;cd ..;sudo rm -r catbot-database"
 3. Install dependencies:
    - "sudo pacman -Syu nodejs npm firejail net-tools xorg-xhost"
 4. Clone setup:
